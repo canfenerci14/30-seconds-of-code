@@ -7,3 +7,4 @@ test('JSONToDate is a Function', () => {
 test('JSONToDate returns the correct date string', () => {
   expect(JSONToDate(/Date(1489525200000)/)).toBe('14/3/2017');
 });
+//tested and updated Jan.2019
